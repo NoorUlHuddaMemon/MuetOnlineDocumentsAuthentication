@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="contact_us" type="id" />
+    <item name="about" type="id" />
+    <item name="rate_us" type="id" />
+    <item name="terms_and_conditions" type="id" />
+    <item name="switch_flashlight" type="id" />
+    <item name="firstname" type="id" />
+    <item name="dept" type="id" />
+</resources>

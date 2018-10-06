@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/activity_horizontal_margin"
+
+    >
+
+
+
+
+
+    <TextView
+        android:id="@+id/firstname"
+        android:fontFamily="serif-monospace"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Full Name:"
+        android:layout_marginTop="15dp"
+
+        />
+
+    <TextView
+        android:id="@+id/fatherName"
+        android:fontFamily="serif-monospace"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Father Name:" />
+
+    <TextView
+        android:id="@+id/rollNo"
+        android:fontFamily="serif-monospace"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Roll No:" />
+
+    <TextView
+        android:id="@+id/cgpa"
+        android:fontFamily="serif-monospace"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="CGPA:" />
+
+    <TextView
+        android:id="@+id/exam"
+        android:fontFamily="serif-monospace"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Date of Examination:" />
+
+    <TextView
+        android:id="@+id/dod"
+        android:fontFamily="serif-monospace"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Date of Decleration:" />
+
+    <TextView
+        android:id="@+id/dept"
+        android:fontFamily="serif-monospace"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Department:" />
+
+
+</LinearLayout>

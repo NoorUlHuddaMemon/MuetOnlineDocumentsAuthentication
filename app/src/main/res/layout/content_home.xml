@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+
+    tools:showIn="@layout/app_bar_home">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.daimajia.slider.library.SliderLayout
+            android:id="@+id/slider"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:scaleType="center"
+
+
+
+
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center|bottom"
+            android:paddingBottom="28dp"
+
+            >
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="Q R Code Scanner"
+                android:fontFamily="sans-serif"
+                android:alpha="0.5"
+                android:id="@+id/q_r_code_scanner"
+                android:layout_gravity="center_horizontal"
+
+                android:background="@color/buttons"
+                android:textColor="#ffffff"
+
+
+
+
+
+
+
+
+                />
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp">
+                <Button
+
+                    android:layout_width="300dp"
+                    android:layout_height="45dp"
+                    android:text="Search by ID"
+                    android:fontFamily="sans-serif"
+                    android:alpha="0.5"
+
+
+                    android:id="@+id/search_by_id"
+                    android:background="@color/buttons"
+                    android:textColor="#ffffff"
+                    />
+                <LinearLayout
+                    android:layout_width="300dp"
+                    android:layout_height="45dp"
+                    android:orientation="horizontal"
+
+                    android:background="@drawable/rounded_linear_layout"
+                    android:visibility="gone"
+
+                    android:id="@+id/linear_layout">
+                    <EditText
+
+                        android:layout_width="260dp"
+                        android:layout_height="45dp"
+                        android:hint="enter id"
+
+
+
+
+
+                        android:textAlignment="center"
+                        android:background="@color/editText"
+
+
+
+                        android:id="@+id/enter_id"/>
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:id="@+id/submit"
+
+                        android:layout_gravity="center|end"
+                        android:padding="10dp"
+                        android:background="@drawable/semi_round_submit_button"
+
+
+                        android:alpha="0.5"
+
+                        app:srcCompat="@drawable/ic_submit"/>
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

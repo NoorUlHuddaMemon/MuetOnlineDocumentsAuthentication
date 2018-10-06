@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/activity_horizontal_margin">
+
+
+    <TextView
+        android:id="@+id/firstname"
+        android:fontFamily="serif-monospace"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Full Name:"
+        android:layout_marginTop="15dp"
+
+        />
+
+    <TextView
+        android:id="@+id/fatherName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:fontFamily="serif-monospace"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Father Name:" />
+
+    <TextView
+        android:id="@+id/rollNo"
+        android:layout_width="match_parent"
+        android:fontFamily="serif-monospace"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Roll No:" />
+
+    <TextView
+        android:id="@+id/cgpa"
+        android:fontFamily="serif-monospace"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="CGPA:" />
+
+    <TextView
+        android:id="@+id/exam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif-monospace"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:text="Final Exam Held:" />
+    <TextView
+        android:id="@+id/dept"
+        android:fontFamily="serif-monospace"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Department" />
+
+    <TextView
+        android:id="@+id/position"
+        android:fontFamily="serif-monospace"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Position:" />
+
+
+
+
+</LinearLayout>

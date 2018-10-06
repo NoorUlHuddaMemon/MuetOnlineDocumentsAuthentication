@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".TermsAndConditions"
+    tools:showIn="@layout/app_bar_terms_and_conditions">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Terms of Service"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:padding="10dp"
+
+            />
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="3dp"
+            android:background="?android:attr/listDivider"
+              />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:text="Agreement to Terms"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:padding="5dp"
+
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:includeFontPadding="true"
+            android:fontFamily="serif-monospace"
+
+            android:text="By visiting the Site, downloading the App, or otherwise using the Service, you indicate your agreement to be bound by these ToS. If you do not agree with these ToS, you must not use the Site or Service, and uninstall the App(s) if you have already downloaded them.
+
+We may modify these ToS from time to time. We will notify you of material changes in accordance with applicable laws. If you do not agree with the proposed changes, you should discontinue your use of the Site and/or Service and uninstall the App(s). If you continue using the Site and/or Service after the new terms take effect, you will be bound by the modified ToS."
+            />
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
